@@ -1,14 +1,16 @@
 // for (let i = 1; i < 101; i++) {
+//   let string = '';
 //   i % 3 == 0
 //     ? i % 5 == 0
-//       ? console.log('fizzbuzz')
-//       : console.log('fizz')
+//       ? (string += 'fizzbuzz')
+//       : (string += 'fizz')
 //     : i % 5 == 0
-//       ? console.log('buzz')
-//       : console.log(i);
+//       ? (string += 'buzz')
+//       : (string += i);
+//   console.log(string);
 // }
 
-// console.log('-----------');
+// Now with less Ternary! also returns numbers not as Strings
 
 for (let i = 1; i < 101; i++) {
   let string = '';
@@ -22,4 +24,3 @@ for (let i = 1; i < 101; i++) {
 
   console.log(string);
 }
-console.log('-----------');
